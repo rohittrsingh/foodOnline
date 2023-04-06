@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def registerVendor(request):
-    pass
+def vprofile(request):
+    return render(request, 'vendor/vprofile.html')
